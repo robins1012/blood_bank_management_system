@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='Register.css'>
+    <link rel="icon" href='./Images/bb_logo(black).png' type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<title>Start Saving Lives </title>
+<body>
+<header>
+    <nav>
+    <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
+    <div class="header-list">
+        <ul>
+            <li><a href="help.html">Get Help please</li></a>
+            <li><a href="donate.html">Donate</li></a>
+            <li><a href="index.html#vol-sect">Volunteer</li></a>
+            <li><a href="index.html#about-us">About Us</a></li>
+            </ul>
+    </div>
+    </nav>
+</header>
+
+<div class="inner">
+    <div class="photo">
+        <img src="./Images/regphoto.png">
+    </div>
+    <div class="user-form">
+        <h1>Start Saving Lives</h1>
+        <form action="register.php" method="post">
+            <i class="fas fa-user icon"></i>
+            <label for="Name"></label>
+            <input type="text" placeholder="Name" name="Name">
+            <br>
+            <i class="fas fa-envelope-square"></i>
+            <label for="Email"></label>
+            <input type="email" placeholder="Email" name="Email">
+            <br>
+            <i class="fas fa-lock"></i>
+            <label for="Password"></label>
+            <input type="password" placeholder="Password" id="password_data" name="Password">
+            <div class="safety" style="font-family: sans-serif; font-size: 20px;">
+                <!-- Enter Password -->
+            </div>
+            <div class="action-btn">
+                <button class="btn primary"><a href="http://localhost/Blood-Buddy/Blood-Buddy/Registration.html" style="text-decoration: none ;color:inherit;">Create Account</a></button>
+                <button class="btn "><a href="http://localhost/Blood-Buddy/Blood-Buddy/register.html" style="text-decoration: none ;color:inherit;">Skip</a></button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="./Register.js"></script>
+</body>
+</html>
